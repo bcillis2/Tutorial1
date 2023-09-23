@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<link href="css/css.css" type="text/css" rel="stylesheet"/>
+
+<div id="home" class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#hero">Hero</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#experience">Experience</a>
+</div>
+
+<div id="hero" class="hero-image">
+  <div class="hero-text">
+    <h1>I am Blake Cillis</h1>
+    <p>And I'm a Second year software engineering student</p>
+    <button>Press me</button>
+  </div>
+</div>
+
+
+
+<div id="about" class="about-section">
+  <h1>About Me Page</h1>
+  <p>I grew up playing soccer</p>
+  <p>And I have a younger sibling</p>
+</div>
+
+
+<div id="experience" class="experience">
+<h1 align="center">This is my work experience</h1>
+<ul>
+  <li>Costco - 4 months (May-August 2023)</li>
+  <li>Local Volunteering</li>
+</ul>
+
+</div>
+
+
+<div id="contact" class="container">
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>Leave questions, comments, or concerns, or give me an email at bcillis2@uwo.ca</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/me.jpg" style="width:25%" "height:20%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>	
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>Blake's Portfolio</p>
+</div>
+
+
+</html>
